@@ -16,6 +16,7 @@ const $ = _$(window);
 
 chaiJquery(chai, chai.util, $);
 
+// renderComponent is a helper function that renders a component
 function renderComponent(ComponentClass, props = {}, state = {}) {
   const componentInstance =  TestUtils.renderIntoDocument(
     <Provider store={createStore(reducers, state)}>
