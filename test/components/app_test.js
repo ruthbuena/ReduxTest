@@ -9,6 +9,7 @@ describe('App' , () => {
     component = renderComponent(App);
   });
 
+// Use 'it' to test a single attribute of a target
   it('renders something', () => {
     expect(component).to.exist;
   });
