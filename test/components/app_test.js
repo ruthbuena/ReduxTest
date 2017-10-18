@@ -8,7 +8,7 @@ describe('App' , () => {
   // an assertion about a particular fact about the testing subject
     it('shows the correct text', () => {
   // Use 'expect' to make an assertion/belief about a target
-      expect(component).to.exist;
+      expect(component).to.contain('React simple starter');
 
 
 
