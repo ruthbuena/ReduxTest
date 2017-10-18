@@ -7,7 +7,11 @@ describe('App' , () => {
   // Use 'it' to test a single attribute of a target, 'it' blocks try to make
   // an assertion about a particular fact about the testing subject
     it('shows the correct text', () => {
-  // Use 'expect' to make an assertion/belief about a target
+
+      // create an instance of App
+      const component = renderComponent(App);
+
+      // Use 'expect' to make an assertion/belief about a target
       expect(component).to.contain('React simple starter');
 
 
