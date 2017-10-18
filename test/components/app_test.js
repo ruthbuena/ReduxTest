@@ -10,7 +10,8 @@ describe('App' , () => {
   });
 
 // Use 'it' to test a single attribute of a target
-  it('renders something', () => {
+  it('shows the correct text', () => {
+// Use 'expect' to make an assertion/belief about a target
     expect(component).to.exist;
   });
 });
