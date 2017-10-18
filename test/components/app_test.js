@@ -1,7 +1,7 @@
 import { renderComponent , expect } from '../test_helper';
 import App from '../../src/components/app';
 
-// Use describe to group together similar tests
+// Use describe to group together similar tests/typical mocha set up
 describe('App' , () => {
 
   // Use 'it' to test a single attribute of a target, 'it' blocks try to make
